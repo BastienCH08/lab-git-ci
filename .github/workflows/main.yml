@@ -18,6 +18,5 @@ jobs:
           
       - name: Build with Maven
         run: |
-          cd /home
-          pwd
-          ls -a
+          cd $GITHUB_WORKSPACE
+          ls -l

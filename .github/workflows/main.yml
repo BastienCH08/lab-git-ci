@@ -18,5 +18,4 @@ jobs:
           
       - name: Build with Maven
         run: |
-          cd $GITHUB_WORKSPACE
-          ls -la
+          find . -name pom.xml

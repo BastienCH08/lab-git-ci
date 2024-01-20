@@ -16,6 +16,10 @@ jobs:
           java-version: '8'
           distribution: 'adopt'
           
-      - name: Build with Maven
+      - name: Change directory
+        run: |
+          cd $GITHUB_WORKSPACE
+          ls -la 
+      - name: Find POM
         run: |
           find . -name pom.xml

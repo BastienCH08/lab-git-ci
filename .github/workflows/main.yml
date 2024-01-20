@@ -19,4 +19,4 @@ jobs:
       - name: Build with Maven
         run: |
           cd $GITHUB_WORKSPACE
-          ls -l
+          ls -la

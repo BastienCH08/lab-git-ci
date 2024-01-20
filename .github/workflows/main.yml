@@ -18,6 +18,6 @@ jobs:
           
       - name: Build with Maven
         run: |
-          cd ..
+          cd /home
           pwd
           ls -a
